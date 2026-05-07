@@ -65,7 +65,6 @@
             box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.1);
         }
 
-        /* 輪播動畫：更流暢的淡入與微縮放 */
         .fade-slide {
             animation: fadeSlide 0.6s cubic-bezier(0.25, 1, 0.5, 1);
         }
@@ -103,10 +102,10 @@
         </div>
     </nav>
 
-    <!-- 英雄區塊 -->
+    <!-- 英雄區塊 (Hero) -->
     <section class="pt-48 pb-32 hero-bg">
         <div class="max-w-7xl mx-auto px-6 text-center">
-            <span class="text-blue-600 font-black text-lg tracking-[0.2em] mb-6 block uppercase">產品簡介</span>
+            <span class="text-blue-600 font-black text-lg tracking-[0.2em] mb-6 block uppercase">行動發展部</span>
             <h1 class="text-5xl md:text-6xl lg:text-7xl font-black text-gray-900 mb-10 leading-tight">CCBOT 對話式商務機器人</h1>
             <p class="text-2xl md:text-3xl text-gray-500 max-w-4xl mx-auto leading-relaxed md:leading-[1.6]">
                 快速建置、部署的「對話型知識服務工具」<br>
@@ -121,10 +120,9 @@
         <div class="max-w-7xl mx-auto px-6 text-center">
             <span class="text-blue-600 font-black text-lg tracking-[0.2em] mb-6 block uppercase">服務模式</span>
             <h2 class="text-4xl font-bold mb-8 text-gray-900">三大服務模式，靈活調配資源</h2>
-            <p class="text-2xl text-gray-500 mb-20 max-w-3xl mx-auto leading-relaxed">針對不同需求情境，提供最適合的處理機制，最大化營運效率</p>
+            <p class="text-2xl text-gray-500 mb-20 max-w-3xl mx-auto leading-relaxed">依據不同業務情境與服務需求，提供最適化處理機制</p>
             
             <div class="grid md:grid-cols-3 gap-10">
-                <!-- 固定式腳本 -->
                 <div class="p-10 rounded-[40px] bg-gray-50 card-hover text-left border border-transparent hover:border-blue-100 transition">
                     <div class="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center mb-8">
                         <i class="fa-solid fa-sitemap text-3xl text-blue-600"></i>
@@ -138,7 +136,6 @@
                     </ul>
                 </div>
 
-                <!-- AI 智能問答 -->
                 <div class="p-10 rounded-[40px] bg-gray-50 card-hover text-left border border-transparent hover:border-blue-100 transition">
                     <div class="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center mb-8">
                         <i class="fa-solid fa-robot text-3xl text-blue-600"></i>
@@ -152,7 +149,6 @@
                     </ul>
                 </div>
 
-                <!-- 真人客服服務 -->
                 <div class="p-10 rounded-[40px] bg-gray-50 card-hover text-left border border-transparent hover:border-blue-100 transition">
                     <div class="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center mb-8">
                         <i class="fa-solid fa-headset text-3xl text-blue-600"></i>
@@ -175,7 +171,7 @@
             <span class="text-blue-600 font-black text-lg tracking-[0.2em] mb-6 block uppercase">系統架構</span>
             <h2 class="text-4xl font-bold mb-8 text-gray-900">模組化三層架構</h2>
             <p class="text-2xl text-gray-500 mb-10 max-w-4xl mx-auto leading-normal">
-                透過三層架構串接用戶互動、對話分流與知識服務，提升回應效率<br>確保系統穩定與彈性擴充能力
+                整合用戶互動、對話分流與知識服務<br>支援多元業務場景，提供高彈性、高擴充性的功能
             </p>
             
             <div class="max-w-5xl mx-auto mb-20">
@@ -184,9 +180,7 @@
                 </div>
             </div>
 
-            <!-- 三層架構卡片區塊 -->
             <div class="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto mb-16">
-                <!-- 第一層 - 使用者介面層 -->
                 <div class="bg-white rounded-[40px] p-10 shadow-sm border border-gray-100 flex flex-col items-center text-center card-hover">
                     <div class="w-20 h-20 bg-blue-50 rounded-3xl flex items-center justify-center mb-8">
                         <i class="fa-solid fa-users text-3xl text-blue-600"></i>
@@ -195,7 +189,6 @@
                     <p class="text-xl text-gray-500 font-medium leading-relaxed">支援多元對話入口，如 Web、APP、社群平台 (Line / FB) 等，提供統一的互動體驗。</p>
                 </div>
 
-                <!-- 第二層 - 核心對話層 -->
                 <div class="bg-white rounded-[40px] p-10 shadow-sm border border-gray-100 flex flex-col items-center text-center card-hover">
                     <div class="w-20 h-20 bg-indigo-50 rounded-3xl flex items-center justify-center mb-8">
                         <i class="fa-solid fa-code-branch text-3xl text-indigo-600"></i>
@@ -204,7 +197,6 @@
                     <p class="text-xl text-gray-500 font-medium leading-relaxed">搭載 Dialogflow 語意解析與分流邏輯，動態判斷應進入腳本、AI 搜尋或真人轉接。</p>
                 </div>
 
-                <!-- 第三層 - 知識服務層 -->
                 <div class="bg-white rounded-[40px] p-10 shadow-sm border border-gray-100 flex flex-col items-center text-center card-hover">
                     <div class="w-20 h-20 bg-emerald-50 rounded-3xl flex items-center justify-center mb-8">
                         <i class="fa-solid fa-server text-3xl text-emerald-600"></i>
@@ -214,53 +206,32 @@
                 </div>
             </div>
 
-            <!-- 補充說明區塊容器 -->
             <div class="max-w-7xl mx-auto space-y-12">
-                
-                <!-- 使用者介面層 介接方式 (補充說明一) -->
                 <div class="bg-blue-50 rounded-[40px] p-10 md:p-16 text-left border border-blue-100 shadow-sm">
-                    <div class="mb-10">
-                        <div class="flex items-center gap-3 mb-2">
-                            <h4 class="text-2xl font-black text-blue-900">使用者介面層介接方式</h4>                        </div>
-     
+                    <div class="mb-10 text-center md:text-left">
+                        <h4 class="text-2xl font-black text-blue-900">使用者介面層介接方式</h4>
                     </div>
-                    
                     <div class="grid md:grid-cols-3 gap-12">
-                        <!-- Web 介紹 -->
                         <div class="space-y-4">
                             <h5 class="text-2xl font-black text-blue-700">Web</h5>
-                            <p class="text-xl text-gray-500 font-medium leading-relaxed">
-                                以嵌入方式 (iframe) 整合於主網站，用戶瀏覽網站時即可展開即時交談視窗。
-                            </p>
+                            <p class="text-xl text-gray-500 font-medium leading-relaxed">以嵌入方式 (iframe) 整合於主網站，用戶瀏覽網站時即可展開即時交談視窗。</p>
                         </div>
-
-                        <!-- APP 介紹 -->
                         <div class="space-y-4 border-l-0 md:border-l border-blue-200 md:pl-12">
                             <h5 class="text-2xl font-black text-blue-700">APP</h5>
-                            <p class="text-xl text-gray-500 font-medium leading-relaxed">
-                                透過 APP 內嵌方式 (webview) 開啟聊天服務，確保移動端與網站擁有完全一致的使用體驗。
-                            </p>
+                            <p class="text-xl text-gray-500 font-medium leading-relaxed">透過 APP 內嵌方式 (webview) 開啟聊天服務，確保移動端與網站擁有完全一致的使用體驗。</p>
                         </div>
-
-                        <!-- 社群平台 介紹 -->
                         <div class="space-y-4 border-l-0 md:border-l border-blue-200 md:pl-12">
                             <h5 class="text-2xl font-black text-blue-700">社群平台 (FB / LINE)</h5>
-                            <p class="text-xl text-gray-500 font-medium leading-relaxed">
-                                透過 Messenger / LINE API 與核心層串接，用戶可直接於習慣的社群平台與機器人對話。
-                            </p>
+                            <p class="text-xl text-gray-500 font-medium leading-relaxed">透過 Messenger / LINE API 與核心層串接，用戶可直接於習慣的社群平台與機器人對話。</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- 會員串接架構流程 (補充說明二) -->
                 <div class="bg-white rounded-[40px] p-10 md:p-16 text-left border border-gray-100 shadow-sm">
-                    <div class="mb-10">
-                        <div class="flex items-center gap-3 mb-2">   
-                            <h4 class="text-2xl font-black text-gray-900">會員串接架構流程</h4>
-                        </div>
-                        <p class="text-lg text-gray-400 font-medium">實現會員身分識別與個人化服務的協作架構</p>
+                    <div class="mb-10 text-center md:text-left">
+                        <h4 class="text-2xl font-black text-gray-900">會員串接架構流程</h4>
+                        <p class="text-lg text-gray-400 font-medium mt-2">實現會員身分識別與個人化服務的協作架構</p>
                     </div>
-                    
                     <div class="max-w-5xl mx-auto">
                         <div class="bg-gray-50 p-2 rounded-[32px] border border-dashed border-gray-200 overflow-hidden">
                             <img src="https://lh3.googleusercontent.com/u/0/d/1-GML2FdVm3CCO50Om__oIQLJwQK4k4Jx" alt="會員串接架構流程圖" class="w-full h-auto rounded-2xl" onerror="this.src='https://placehold.co/1200x800?text=Member+Integration+Flow+Diagram'">
@@ -268,11 +239,11 @@
                         <div class="mt-8 grid md:grid-cols-2 gap-8 text-gray-500 text-lg">
                             <div class="flex gap-4">
                                 <div class="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center flex-shrink-0 font-bold">1</div>
-                                <p>用戶從 Charbot 透過主站會員機制，進行會員登入 / 註冊的驗證</p>
+                                <p>用戶從 Chatbot 透過主站會員機制，進行會員登入 / 註冊的驗證</p>
                             </div>
                             <div class="flex gap-4">
                                 <div class="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center flex-shrink-0 font-bold">2</div>
-                                <p>主站會員機制驗證成功能，取得會員相關資訊回傳給 Chatbot</p>
+                                <p>主站會員機制驗證成功後，取得會員相關資訊回傳給 Chatbot</p>
                             </div>
                         </div>
                     </div>
@@ -285,17 +256,12 @@
     <section id="ui-styles" class="py-32 bg-white overflow-hidden">
         <div class="max-w-7xl mx-auto px-6">
             <div class="bg-gray-900 rounded-[60px] p-12 md:p-24 text-white relative flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
-                <!-- 文案區 -->
                 <div class="lg:w-1/2 space-y-12 text-center lg:text-left">
                     <div class="space-y-6">
                         <span class="text-blue-400 font-black text-lg tracking-[0.25em] block uppercase">訊息樣式</span>
-                        <h2 class="text-4xl md:text-5xl font-black  md:leading-[1.6]">多種訊息回應樣式<br>滿足多元溝通情境</h2>
+                        <h2 class="text-4xl md:text-5xl font-black leading-[1.2]">多種訊息回應樣式<br>滿足多元溝通情境</h2>
                     </div>
-                    
-                    <p class="text-xl md:text-2xl text-gray-400 leading-relaxed font-medium tracking-wide">
-                        從基礎文字到豐富的圖文選單、按鈕卡片及列表視窗，以多樣化的視覺呈現，精準引導用戶操作
-                    </p>
-
+                    <p class="text-xl md:text-2xl text-gray-400 leading-relaxed font-medium tracking-wide">從基礎文字到豐富的圖文選單、按鈕卡片，以多樣化的視覺呈現，精準引導用戶操作</p>
                     <div class="flex flex-wrap gap-5 justify-center lg:justify-start pt-6">
                         <span class="px-7 py-3 bg-white/10 rounded-full text-base font-bold border border-white/20 hover:bg-white/20 transition-colors">文字選項卡</span>
                         <span class="px-7 py-3 bg-white/10 rounded-full text-base font-bold border border-white/20 hover:bg-white/20 transition-colors">快速選項</span>
@@ -305,20 +271,13 @@
                         <span class="px-7 py-3 bg-white/10 rounded-full text-base font-bold border border-white/20 hover:bg-white/20 transition-colors">音頻選項卡</span>
                     </div>
                 </div>
-
-                <!-- 圖片輪播展示 -->
                 <div class="lg:w-1/2 w-full max-w-lg mx-auto">
                     <div class="relative rounded-[40px] shadow-2xl overflow-hidden group">
-                        <!-- 圖片容器 -->
                         <div id="carousel-container" class="aspect-[9/16] bg-black">
                             <img id="carousel-img" src="https://lh3.googleusercontent.com/u/0/d/14grYqXKw2SZY_1Hc79P6JAfhz_zRemfq" alt="訊息樣式展示" class="w-full h-full object-contain fade-slide">
                         </div>
-                        
-                        <!-- 底部指示器 -->
                         <div class="absolute bottom-8 left-0 right-0 flex justify-center">
-                            <div id="carousel-dots" class="bg-black/20 backdrop-blur-md px-4 py-2 rounded-full flex gap-3">
-                                <!-- 由 JS 生成 -->
-                            </div>
+                            <div id="carousel-dots" class="bg-black/20 backdrop-blur-md px-4 py-2 rounded-full flex gap-3"></div>
                         </div>
                     </div>
                 </div>
@@ -334,7 +293,6 @@
                 <h2 class="text-4xl font-bold text-gray-900 mb-6">建立 AI 知識庫</h2>
                 <p class="text-2xl text-gray-500 max-w-3xl mx-auto leading-relaxed">透過彈性化知識導入機制，AI 可持續同步最新業務資訊 <br>確保知識即時更新</p>
             </div>
-
             <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                 <div class="bg-white p-8 rounded-[32px] shadow-sm border border-gray-100 card-hover">
                     <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-6">
@@ -343,15 +301,13 @@
                     <h4 class="text-xl font-black text-gray-900 mb-3">首次批次匯入</h4>
                     <p class="text-lg text-gray-500 leading-relaxed">一次性匯入既有歷史資料，快速建置初期知識庫基線，確保系統啟動即具備可用資訊基礎</p>
                 </div>
-
                 <div class="bg-white p-8 rounded-[32px] shadow-sm border border-gray-100 card-hover">
                     <div class="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center mb-6">
-                        <i class="fa-solid fa-cloud-arrow-up text-indigo-600"></i>
+                        <i class="fa-solid fa-arrows-rotate text-indigo-600"></i>
                     </div>
                     <h4 class="text-xl font-black text-gray-900 mb-3">API 自動同步</h4>
                     <p class="text-lg text-gray-500 leading-relaxed">串接外部系統或既有 API，依排程或事件機制持續同步更新資料，確保知識內容即時性與一致性</p>
                 </div>
-
                 <div class="bg-white p-8 rounded-[32px] shadow-sm border border-gray-100 card-hover">
                     <div class="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center mb-6">
                         <i class="fa-solid fa-keyboard text-emerald-600"></i>
@@ -369,13 +325,9 @@
             <div class="text-center mb-20">
                 <span class="text-blue-600 font-black text-lg tracking-[0.2em] mb-6 block uppercase">真人客服</span>
                 <h2 class="text-4xl font-bold text-gray-900 mb-6">真人客服銜接</h2>
-                <p class="text-2xl text-gray-500 max-w-3xl mx-auto leading-relaxed">
-                    由專人客服接手提供進一步諮詢與協助，確保問題得以妥善處理
-                </p>
+                <p class="text-2xl text-gray-500 max-w-3xl mx-auto leading-relaxed">由專人客服接手提供進一步諮詢與協助，確保問題得以妥善處理</p>
             </div>
-
             <div class="max-w-6xl mx-auto space-y-24">
-                <!-- 真人客服呼叫流程 -->
                 <div class="space-y-8">
                     <div>
                         <h3 class="text-2xl font-black text-gray-900 mb-4">真人客服呼叫流程</h3>                   
@@ -385,10 +337,7 @@
                         <img src="https://lh3.googleusercontent.com/u/0/d/1JgwRopEOCcN4cuw8AwOg2gmucvB9FfUQ" alt="真人客服呼叫流程" class="w-full h-auto rounded-[36px]">
                     </div>
                 </div>
-
-                <!-- 即時通知與後台接管左右並排 -->
                 <div class="grid md:grid-cols-2 gap-12 lg:gap-16">
-                    <!-- Chrome 瀏覽器通知 -->
                     <div class="space-y-8 flex flex-col">
                         <div class="bg-gray-50 p-4 rounded-[40px] img-shadow border border-gray-100 overflow-hidden flex-shrink-0">
                             <img src="https://lh3.googleusercontent.com/u/0/d/1-UNTCg7FOvTRtEnZ4YsANCPUxAuEWtE3" alt="Chrome 瀏覽器通知" class="w-full aspect-[16/10] object-cover rounded-[28px]">
@@ -398,15 +347,13 @@
                             <p class="text-lg text-gray-400 font-medium leading-relaxed">使用者發起真人客服需求時，系統即時透過 Chrome 通知客服人員，確保能迅速回應解決用戶問題。</p>                      
                         </div>
                     </div>
-
-                    <!-- 後台接管對話 -->
                     <div class="space-y-8 flex flex-col">
                         <div class="bg-gray-50 p-4 rounded-[40px] img-shadow border border-gray-100 overflow-hidden flex-shrink-0">
                             <img src="https://lh3.googleusercontent.com/u/0/d/1Q8kFvcsrJHC3NH9k1bXtMmxm927W6Gtq" alt="後台接管對話" class="w-full aspect-[16/10] object-cover rounded-[28px]">
                         </div>
                         <div class="flex-1">
                             <h3 class="text-2xl font-black text-gray-900 mb-4">後台接管對話</h3>                    
-                            <p class="text-lg text-gray-400 font-medium leading-relaxed">客服人員可於後台查看完整對話紀錄，並隨時接管對話進行後續服務，與真人無縫切換。</p>                  
+                            <p class="text-lg text-gray-400 font-medium leading-relaxed">客服人員可於後台查看完整對話紀錄，並隨時接管對話進行後續服務，讓 AI 與真人無縫切換。</p>                  
                         </div>
                     </div>
                 </div>
@@ -422,34 +369,28 @@
                 <h2 class="text-4xl font-bold text-gray-900 mb-6">Chatbot 開發</h2>
                 <p class="text-2xl text-gray-500 max-w-3xl mx-auto leading-relaxed">從 UI/UX 規劃到 AI 調校，提供全方位的技術支援與流程優化</p>
             </div>
-
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- 基本處理 -->
                 <div class="bg-gray-50 p-10 rounded-[40px] border border-gray-100 card-hover flex flex-col">
                     <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mb-8">
                         <i class="fa-solid fa-desktop text-2xl text-blue-600"></i>
                     </div>
                     <h3 class="text-2xl font-black mb-6 text-gray-900">基本處理</h3>
                     <ul class="space-y-4 text-gray-500 font-bold text-lg flex-1">
-                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-blue-500 mt-1"></i> 前端客製畫面處理 (顏色 / icon / 文案) 範例</li>
-                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-blue-500 mt-1"></i> 對話內容與流程規劃 (含會員登入需要的文案) 範例</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-blue-500 mt-1"></i> 前端客製畫面處理 (顏色 / icon / 文案)</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-blue-500 mt-1"></i> 對話內容與流程規劃 (含會員登入需要的文案)</li>
                     </ul>
                 </div>
-
-                <!-- API 串接 -->
                 <div class="bg-gray-50 p-10 rounded-[40px] border border-gray-100 card-hover flex flex-col">
                     <div class="w-16 h-16 bg-indigo-100 rounded-2xl flex items-center justify-center mb-8">
                         <i class="fa-solid fa-link text-2xl text-indigo-600"></i>
                     </div>
                     <h3 class="text-2xl font-black mb-6 text-gray-900">API 串接</h3>
                     <ul class="space-y-4 text-gray-500 font-bold text-lg flex-1">
-                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-indigo-500 mt-1"></i> 固定式腳本：串接回覆資訊 (營運單位提供)</li>
-                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-indigo-500 mt-1"></i> AI 回答：提供知識文件至 RAG 使用 (營運單位提供)</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-indigo-500 mt-1"></i> 固定式腳本：串接回覆資訊</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-indigo-500 mt-1"></i> AI 回答：提供知識文件至 RAG 使用</li>
                         <li class="flex items-start gap-3"><i class="fa-solid fa-check text-indigo-500 mt-1"></i> Bot 對話紀錄：Raw Data 匯出</li>
                     </ul>
                 </div>
-
-                <!-- AI 相關 -->
                 <div class="bg-gray-50 p-10 rounded-[40px] border border-gray-100 card-hover flex flex-col">
                     <div class="w-16 h-16 bg-emerald-100 rounded-2xl flex items-center justify-center mb-8">
                         <i class="fa-solid fa-brain text-2xl text-emerald-600"></i>
@@ -460,8 +401,6 @@
                         <li class="flex items-start gap-3"><i class="fa-solid fa-check text-emerald-500 mt-1"></i> AI 問答調校</li>
                     </ul>
                 </div>
-
-                <!-- 數據追蹤 -->
                 <div class="bg-gray-50 p-10 rounded-[40px] border border-gray-100 card-hover flex flex-col">
                     <div class="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center mb-8">
                         <i class="fa-solid fa-chart-line text-2xl text-orange-600"></i>
@@ -470,7 +409,6 @@
                     <ul class="space-y-4 text-gray-500 font-bold text-lg flex-1">
                         <li class="flex items-start gap-3"><i class="fa-solid fa-check text-orange-500 mt-1"></i> 基本 GA + 自訂事件</li>
                         <li class="flex items-start gap-3"><i class="fa-solid fa-check text-orange-500 mt-1"></i> 主站設定 GTM 和 Datalayer</li>
-                        <li class="flex items-start gap-3"><span class="text-sm italic block text-gray-400">Chatbot 回傳資料至主站，再由主站送至 GA</span></li>
                     </ul>
                 </div>
             </div>
@@ -511,7 +449,6 @@
                             <h4 class="text-3xl font-black mb-3">生成式 AI 費用試算</h4>
                             <p class="text-blue-100 text-xl">輸入預估流量，即時掌握維運成本</p>
                         </div>
-                        
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <div class="space-y-3">
                                 <label class="text-sm font-black uppercase tracking-widest text-blue-200">平均每小時用戶</label>
@@ -528,7 +465,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="space-y-4 pt-6 border-t border-white/10">
                             <div class="flex items-center gap-3 text-base font-bold text-blue-100">
                                 <i class="fa-solid fa-calculator"></i>
@@ -536,7 +472,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="w-full lg:w-80 bg-white rounded-[40px] p-10 text-gray-900 shadow-inner flex flex-col items-center">
                         <div class="text-sm text-gray-400 font-black mb-4 tracking-widest uppercase">預估每月總預算</div>
                         <div class="flex flex-col items-center py-6">
@@ -559,9 +494,7 @@
                 <span class="text-blue-600 font-black text-lg tracking-[0.2em] mb-6 block uppercase">案例分享</span>
                 <h2 class="text-4xl font-bold text-gray-900">成功導入實績</h2>
             </div>
-
             <div class="space-y-12">
-                <!-- 售票網案例 -->
                 <div class="case-card flex flex-col md:flex-row gap-10 items-start">
                     <div class="flex-1">
                         <h3 class="text-3xl font-black mb-8 text-gray-900 border-l-8 border-blue-600 pl-6">售票網</h3>
@@ -589,8 +522,6 @@
                         </a>
                     </div>
                 </div>
-
-                <!-- 經濟日報案例 -->
                 <div class="case-card flex flex-col md:flex-row gap-10 items-start">
                     <div class="flex-1">
                         <h3 class="text-3xl font-black mb-8 text-gray-900 border-l-8 border-blue-600 pl-6">經濟日報</h3>
@@ -622,58 +553,24 @@
                         </a>
                     </div>
                 </div>
-
-                <!-- 元氣網案例 -->
-                <div class="case-card flex flex-col md:flex-row gap-10 items-start">
-                    <div class="flex-1">
-                        <h3 class="text-3xl font-black mb-8 text-gray-900 border-l-8 border-blue-600 pl-6">元氣網</h3>
-                        <div class="space-y-6 text-xl">
-                            <div>
-                                <span class="font-black text-blue-600 block mb-2 uppercase">應用情境</span>
-                                <p class="text-gray-600 font-medium leading-normal">健康醫療資訊平台，提供衛教內容、疾病查詢與醫師諮詢導流</p>
-                            </div>
-                            <div>
-                                <span class="font-black text-blue-600 block mb-2 uppercase">導入策略</span>
-                                <ul class="text-gray-600 list-disc list-inside space-y-3 font-medium leading-normal">
-                                    <li>針對高頻醫療問詢建立 RAG 知識庫問答</li>
-                                    <li>根據用戶行為推薦專屬健康衛教文</li>
-                                    <li>串接醫護小撇步與線上預約機制</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <span class="font-black text-blue-600 block mb-2 uppercase">商業價值</span>
-                                <p class="text-gray-800 font-black">建立專業且具親和力的數位服務形象，提高內容點閱與留存率</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-full md:w-64 flex flex-col items-center">
-                        <div class="qr-container shadow-sm mb-6">
-                            <img src="https://lh3.googleusercontent.com/u/0/d/17Csw16Eds1Oo-MFf3AQJH9-NKon4Jf-D" alt="元氣網 QR Code" class="w-40 h-40 object-contain" onerror="this.src='https://placehold.co/160?text=QR+Code'">
-                        </div>
-                        <a href="https://health.udn.com" target="_blank" class="w-full bg-blue-600 text-white text-center py-4 rounded-xl font-black text-xl hover:bg-blue-700 transition">
-                            前往網站 <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-sm"></i>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer (底部欄位) -->
     <footer class="bg-gray-900 text-white py-8">
-        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
             <div class="flex items-center space-x-3">
-                    <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                        <i class="fa-solid fa-robot text-white text-sm"></i>
-                    </div>
-                <span class="font-black text-2xl tracking-tighter">CCBOT</span>
+                <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+                    <i class="fa-solid fa-robot text-white text-sm"></i>
+                </div>
+                <span class="text-white font-bold text-2xl tracking-tighter">CCBOT</span>
             </div>
-            <div class="text-base text-gray-500 font-bold">© 2026 行動發展部 版權所有</div>
+            <div class="text-sm text-gray-500 font-bold">© 2024 CCBOT 對話式商務機器人 版權所有</div>
         </div>
     </footer>
 
     <script>
-        // 費用試算邏輯
         const userInp = document.getElementById('input-users');
         const callInp = document.getElementById('input-ai-calls');
         const resultText = document.getElementById('result-total');
@@ -689,12 +586,11 @@
         userInp.addEventListener('input', calculateCost);
         callInp.addEventListener('input', calculateCost);
 
-        // 訊息樣式輪播邏輯
         const styleImages = [
             'https://lh3.googleusercontent.com/u/0/d/14grYqXKw2SZY_1Hc79P6JAfhz_zRemfq', 
             'https://lh3.googleusercontent.com/u/0/d/1RshAV0idHYw0TuX_Q-AjxTWzXNdUMXzu', 
             'https://lh3.googleusercontent.com/u/0/d/151uj39UOnBu2VFdIk11MvNLl7QdRyAtN', 
-            'https://lh3.googleusercontent.com/u/0/d/1aqDyi_zkPZ8NV_1oo1fREZHCPGmN_GUv', 
+            'https://lh3.googleusercontent.com/u/0/d/1aqDyi_zkPZ8NV_1oo1fREZHCPGmN_GUv', // 圖片樣式更新後的連結
             'https://lh3.googleusercontent.com/u/0/d/18UcqzLyWjSxbO6SKIa6CDPj1W8s5EJPF', 
             'https://lh3.googleusercontent.com/u/0/d/1Cqmty5nC4d4LJQTc9n3V9sUcAVOUzXgm'  
         ];
@@ -703,7 +599,6 @@
         const carouselImg = document.getElementById('carousel-img');
         const dotsContainer = document.getElementById('carousel-dots');
 
-        // 生成指示點
         styleImages.forEach((_, i) => {
             const dot = document.createElement('div');
             dot.className = `w-2 h-2 rounded-full transition-all duration-300 ${i === 0 ? 'bg-blue-400 w-6' : 'bg-white/40'}`;
@@ -712,28 +607,18 @@
 
         function updateCarousel() {
             currentIndex = (currentIndex + 1) % styleImages.length;
-            
             carouselImg.classList.remove('fade-slide');
             void carouselImg.offsetWidth; 
             carouselImg.src = styleImages[currentIndex];
             carouselImg.classList.add('fade-slide');
-
             const dots = dotsContainer.querySelectorAll('div');
             dots.forEach((dot, i) => {
-                if (i === currentIndex) {
-                    dot.className = 'w-2 h-2 rounded-full transition-all duration-300 bg-blue-400 w-6';
-                } else {
-                    dot.className = 'w-2 h-2 rounded-full transition-all duration-300 bg-white/40';
-                }
+                dot.className = i === currentIndex ? 'w-2 h-2 rounded-full transition-all duration-300 bg-blue-400 w-6' : 'w-2 h-2 rounded-full transition-all duration-300 bg-white/40';
             });
         }
 
         setInterval(updateCarousel, 3500);
-
-        window.onload = function() {
-            calculateCost();
-        };
+        window.onload = calculateCost;
     </script>
-
 </body>
 </html>
